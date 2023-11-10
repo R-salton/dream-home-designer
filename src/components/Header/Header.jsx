@@ -43,7 +43,8 @@ function Header({theme,toggleTheme}) {
      <div className='container'>
       <div className='nav__wrapper'>
         <div className='logo'>
-          <h2>DreamH</h2>
+          <img src='/images/logo-f.png' alt='' />
+          <span className='logo-tag'>Dream House Designer</span>
         </div>
 
         {/* ========== Navigation =============*/}
