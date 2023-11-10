@@ -1,0 +1,75 @@
+.service{
+
+    .container{
+        padding: 60px 0px;
+
+        .services__top-content{
+            text-align: center  ;
+            margin-bottom: 50px;
+            h2{}
+
+            .highlight{
+                color: var(--primary-color);
+            }
+        }
+
+        .service__item-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 1.5rem;
+ 
+            .services__item{
+                background: var(--card-bg);
+                width: 30%;
+                padding: 30px 15px;
+                text-align: center;
+                margin-bottom: 30px;
+                border-radius: 0.5rem;
+                cursor: pointer;
+                transition: all .3s ease;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+                @media only screen and (max-width: 768px){
+                    width: 47.7%;
+                }
+                @media only screen and (max-width: 576px){
+                    width: 100%;
+                }
+                &:hover{
+                    transform: scale(1.03);
+                }
+                .services__icon{
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+                    background: var(--primary-color);
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+                    border: 1px solid var(--btn-secondary-bg);
+
+                   
+                    
+                    i{
+                        font-size: 2rem;
+                        color: var(--btn-secondary-bg);
+                    }
+                }
+
+                .services__title{
+                    color: var(--btn-secondary-bg) ;
+                    font-style: 1.3rem;
+                    margin-bottom: 30px;
+                    @media only screen and (max-width: 768px){
+                        font-size: 1.2rem;
+                    }
+                }
+                
+                p{}
+            }
+        }
+    }
+}

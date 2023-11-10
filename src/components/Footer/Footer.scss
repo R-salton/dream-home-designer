@@ -1,0 +1,105 @@
+.footer{
+    padding  : 60px 0px 0px;
+
+    .container{
+
+        .hr-line{
+            background-color: var(--secondary-color);;
+            border: none;
+            height: 1px;
+            margin-bottom: 20px;
+            
+        }
+
+        .footer__wrapper{
+            display: flex;
+            justify-content: space-between;
+            column-gap: 20px;
+            @media only screen and (max-width: 768px){
+                flex-wrap: wrap;
+                column-gap: 1.5rem !important;
+                row-gap: 1.5rem;
+            }
+
+            .footer__logo{
+                width: 40%;
+                margin: 0px;
+                @media only screen and (max-width: 768px){
+                    width: 50%;
+                }
+
+                @media only screen and (max-width: 576px){
+                    width: 47%;
+                }
+                h2{
+                    color: var(--primary-color);
+                    @media only screen and (max-width: 768px){
+                        font-size: 1.5rem;
+                    }
+                }
+                .description{}
+                .small__text{
+                    font-size: 1rem;
+                    margin-top: 30px;
+                    @media only screen and (max-width: 576px){
+                        font-size: 0.8rem;
+                        margin-top: 15px;
+                    }
+                }
+            }
+
+            .footer__quick-links{
+                width: 20%;
+             
+                @media only screen and (max-width: 576px){
+                    width: 47%;
+                }
+
+                .quick__links-title{
+                    font-size: 1.1rem;
+                    color: var(--primary-color);
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
+
+                .quick__links{
+
+
+                    .quick__link-item{
+                        margin-top: 10px;
+
+                        a{
+                            font-size: .9rem;
+                            font-weight: 200;
+                            display: flex;
+                            column-gap: .5rem;
+                            align-items: center;
+                            cursor: pointer;
+                            transition: all .3s ease-in-out;
+                            &:hover{
+                                color: var(--primary-color);
+                                transform: translateX(5px);
+                            }
+
+                            i{
+                                font-size: 1.3rem;
+                            }
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+
+        .copy-right{
+            text-align: center;
+            h5{
+                font-size: .8rem;
+                font-weight: 200;
+               color: var(--light-gray);
+                margin: 20px;
+            }
+        }
+    }
+}
