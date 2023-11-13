@@ -26,6 +26,7 @@
   --link-color: #16181C;
   --light-mode: #16181C;
   --header-bg: #f7f7f7;
+  --project-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   --header-shadow: rgba(17, 17, 26, 0.1) 0px 1.5px 0px;
   --card-bg: linear-gradient(
     45deg,
@@ -66,6 +67,8 @@
   --header-bg: #16181c;
   --light-gray: #ffffff7a;
   --counter-section-bg: #B2A091;
+  --project-shadow: rgba(162, 163, 163, 0.12) 0px 3px 5px 0px, rgba(109, 116, 120, 0.32) 0px 3px 16px 0px, rgba(137, 143, 146, 0.32) 1px 3px 16px 1px;
+
   --header-shadow: rgb(255,255,255,0.1) 1px 1.5px 1px;
   --newsletter-bg: linear-gradient(
     180deg,
@@ -314,3 +317,4 @@ li{
   flex-direction: column;
 }
 }
+

@@ -1,27 +1,52 @@
 import React from 'react'
 import './Testmonial.scss';
-import Slider from "react-slick";
+
 import { Clients } from '../../data';
+import Slide from '../Slider/Slide';
   
 
 const Testmonial = (props) => {
-
-     
 
     const settings = {
         dots: false,
         infinite: true,
         speed: 1000,
-        autoplay: true,
+        arrows: false,
         autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
         swipperToSlide: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow:1,
+              slidesToScroll:1,
+              infinite: true,
+             
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+  
       
       };
 
+
   return (
-    <section className='testmonial'>
+    <section className='testmonial' id="testimonials">
         <div className='container'>
             <div className='slider__content-top'>
                 <h6 className='subtitle'>Testmonials From our clients</h6>
@@ -29,10 +54,11 @@ const Testmonial = (props) => {
             </div>
 
             <div className='slider__wrapper'>
-            <Slider className='Slider' {...settings}>
+            <Slide autoplay={true} slidesToScroll={1} slidesToShow={1} {...settings}>
+
             
             {
-                Clients.map((client,index) =>{
+                Clients.map((client,index) =>{ 
                     
 
                     return(
@@ -53,7 +79,7 @@ const Testmonial = (props) => {
                     )
                 })
             }
-        </Slider>  
+        </Slide>  
             </div>
             
         </div>

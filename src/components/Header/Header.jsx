@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import './Header.scss';
 import { nav__links } from '../../data';
+import { Link } from 'react-router-dom';
 
 function Header({theme,toggleTheme}) {
 
@@ -42,10 +43,13 @@ function Header({theme,toggleTheme}) {
     <header className='header' ref={headerRef}>
      <div className='container'>
       <div className='nav__wrapper'>
-        <div className='logo'>
+        
+        <Link to="/" className='logo'>
+
           <img src='/images/logo-f.png' alt='' />
           <span className='logo-tag'>Dream House Designer</span>
-        </div>
+        </Link>
+        
 
         {/* ========== Navigation =============*/}
         <div className='navigation' ref={menuRef} onClick={toggleMenu}>

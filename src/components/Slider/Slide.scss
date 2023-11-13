@@ -1,0 +1,30 @@
+.carousel{
+
+   
+    
+    
+    .slider__arrow{
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+    .arrows{
+     display: flex;
+     flex-direction: row;
+    }
+
+      .previous__arrow{
+        
+        margin: auto 20px;
+        left: 100px;
+        width: 40px;
+    
+      }
+}

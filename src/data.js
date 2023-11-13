@@ -12,13 +12,18 @@ export const nav__links =[
       display: 'Service'
   },
     {
-      path: '#project',
-      display: 'Project '
+      path: '#projects',
+      display: 'Projects '
     },
     {
-        path: '#blog',
-        display: 'Blog'
+        path: '#testimonials',
+        display: 'Testimonials'
       },
+      {
+        path: '#contacts',
+        display: 'Contact'
+      }
+
   ]
 
   export const counterData = [
@@ -211,4 +216,54 @@ export const nav__links =[
        
     ]
 
+  ]
+
+
+  export const Houses = [
+
+    {
+      id: 1,
+      title: "5 Rooms House",
+      cover: "https://housedesign-3d.com/wp-content/uploads/2022/06/3-Bedrooms-House-Plan-15x20-Meter.jpg",
+      floo_1: "https://housedesign-3d.com/wp-content/uploads/2022/06/3-Bedrooms-House-Plan-15x20-Meter-Ground-floor-plan.jpg",
+      floo_2: "https://housedesign-3d.com/wp-content/uploads/2022/06/3-Bedrooms-House-Plan-15x20-Meter-First-floor-plan.jpg",
+      both_floo: "https://housedesign-3d.com/wp-content/uploads/2022/06/3-Bedrooms-House-Plan-15x20-Meter-floor-plan.jpg",
+      desc: "Building size: 11 Meter wide 15 meter deep (including porch & steps) Main roof Terrace concrete or zine tile Cars Parking is out side of the house Living room      Bedroom: 3 Bedrooms Bathroom: 3 Bathrooms Dining room with Kitchen Washing room Buddha room",
+    },
+    {
+      id: 2,
+      title: "4 Rooms House",
+      cover: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/72266/72266-p3.jpg",
+      floo_1: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/72266/72266-p4.jpg",
+      floo_2: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/72266/72266-p7.jpg",
+      both_floo: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/72266/72266-r.jpg",
+      desc: "Building size: 11 Meter wide 15 meter deep (including porch & steps) Main roof Terrace concrete or zine tile Cars Parking is out side of the house Living room      Bedroom: 3 Bedrooms Bathroom: 3 Bathrooms Dining room with Kitchen Washing room Buddha room",
+    },
+    {
+      id: 3,
+      title: "3 Rooms House",
+      cover: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83361/83361-b600.jpg",
+      floo_1: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83361/83361-p4.jpg",
+      floo_2: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83361/83361-p7.jpg",
+      both_floo: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83361/83361-r.jpg",
+      desc: "Building size: 11 Meter wide 15 meter deep (including porch & steps) Main roof Terrace concrete or zine tile Cars Parking is out side of the house Living room      Bedroom: 3 Bedrooms Bathroom: 3 Bathrooms Dining room with Kitchen Washing room Buddha room",
+    },
+    {
+      id: 4,
+      title: "4 Rooms Family H",
+      cover: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83367/83367-b600.jpg",
+      floo_1: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83367/83367-p2.jpg",
+      floo_2: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83367/83367-p3.jpg",
+      both_floo: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83367/83367-r.jpg",
+      desc: "Building size: 11 Meter wide 15 meter deep (including porch & steps) Main roof Terrace concrete or zine tile Cars Parking is out side of the house Living room      Bedroom: 3 Bedrooms Bathroom: 3 Bathrooms Dining room with Kitchen Washing room Buddha room",
+    },
+    {
+      id: 5,
+      title: "3 Rooms Houser",
+      cover: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83372/83372-b600.jpg",
+      floo_1: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83372/83372-p2.jpg",
+      floo_2: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83372/83372-p2.jpg",
+      both_floo: "https://images.familyhomeplans.com/cdn-cgi/image/fit=contain,quality=85/plans/83372/83372-p3.jpg",
+      desc: "Building size: 11 Meter wide 15 meter deep (including porch & steps) Main roof Terrace concrete or zine tile Cars Parking is out side of the house Living room      Bedroom: 3 Bedrooms Bathroom: 3 Bathrooms Dining room with Kitchen Washing room Buddha room",
+    },
   ]

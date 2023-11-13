@@ -4,13 +4,11 @@ import 'remixicon/fonts/remixicon.css';
 import './App.css';
 import Header from "./components/Header/Header";
 import Hero from "./components/UI/Hero";
-import Counter from "./components/Counter/Counter";
-import Services from "./components/Services/Services";
-import About from "./components/About/About";
-import Team from "./components/Team/Team";
-import Testmonial from "./components/Testmonial/Testmonial";
 import Footer from "./components/Footer/Footer";
 import { useEffect, useState } from "react";
+import {Routes, Route} from 'react-router-dom'
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
+import Home from "./components/Home/Home";
 
 
 function App() {
@@ -25,18 +23,24 @@ useEffect(()=>{
 },[theme])
 
   return (
-    <>
-     <Header theme={theme} toggleTheme={toggleTheme}/>
-     <Hero theme={theme} />
-     <Counter />
-     <Services />
-     <About />
-     <Team />
-     <Testmonial />
-     <Footer />
-     
-    </>
-  );
-}
+   
 
+    <>
+    
+     <Header theme={theme} toggleTheme={toggleTheme}/>
+
+     <Routes>
+     <Route path="/" element={<Home  theme={theme} />} />
+    <Route path="/:id" element={<ProjectDetails />} />
+     </Routes>
+     <Footer />
+
+     
+     
+      
+    </>
+   );
+}
+    
+   
 export default App;
