@@ -73,9 +73,10 @@
                     .menu__item{
                         .menu__link{
                             font-weight: 400;
-                            font-size: .9rem;
+                            font-size: .93rem;
                             cursor: pointer;
                             transition: all .3s ease;
+                            color: var(--link-color);
 
                             &:hover {
                                 color: var(--primary-color);
