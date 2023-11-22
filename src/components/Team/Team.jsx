@@ -2,7 +2,7 @@ import React from 'react'
 import './Team.scss'
 import { TeamData } from '../../data';
 
-const Team = () => {
+const Team = () => { 
   return (
     <section id='team' className='team'>
         <div className='container'>

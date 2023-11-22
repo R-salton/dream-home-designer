@@ -45,20 +45,25 @@ export const nav__links =[
   export const ServicesData =[
     {
       title:'Architectural Deign',
+      image: '/images/architecture.png',
       description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
     
     },
 
     {
       title:'Interior Design',
+      image: '/images/interior.png',
+
       description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
     },
     {
       title:'Product Design',
+      image: '/images/product-.png',
       description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
     },
     {
       title:'Project Monitoring',
+      image: '/images/project.png',
       description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
     }
   ]

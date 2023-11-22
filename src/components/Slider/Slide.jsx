@@ -13,24 +13,6 @@ function Slide({children, autoplay, slidesToScroll,slidesToShow,settings}) {
   const sliderRef = useRef(null);
 
  
-const Arrows = () => {
-    return (
-     
-
-      <div className="slider__arrow">
-      
-        <p className="arrow-btn prev" onClick={() => sliderRef.current?.slickPrev()} ><i class="ri-arrow-left-line"></i></p>
-        <p className="arrow-btn next" onClick={() => sliderRef.current?.slickNext()} ><i class="ri-arrow-right-line"></i></p>
-      </div>
-      
-      
-      
-      );
-    };
-
-     
-
-      
      
      
   return (
@@ -41,8 +23,6 @@ const Arrows = () => {
             {children}
               
           </Slider>
-          
-          {Arrows()}
 
    </div>
         
@@ -50,8 +30,6 @@ const Arrows = () => {
   
   )};
           
-            
- 
       
 
 

@@ -6,7 +6,7 @@ import { Houses } from '../../data';
 import Slider from '../Slider/Slide';
 import Modal from 'react-modal';
 
-
+ 
 
 
 const ProjectDetails = () => {
@@ -33,7 +33,7 @@ const ProjectDetails = () => {
            
             <h1>{project.title}</h1>
             
-                <p>{project.desc}</p>
+              
             
             <div className='images__wrapper'>
             <img className='image' src={project.cover} alt=' '  onClick={openModal}/>
@@ -43,10 +43,8 @@ const ProjectDetails = () => {
             <img className='image' src={project.both_floo} alt=' ' />
 
             </div>
+            <p className='details'>{project.desc}</p>
             
-           <Link to="/">
-            <p className='close'>X</p>
-           </Link>
         </div>
      </div>
     </section>

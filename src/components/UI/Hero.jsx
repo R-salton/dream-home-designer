@@ -16,8 +16,8 @@ function Hero() {
                     <p className='description'>Sint duis exercitation ea exercitation ullamco aliquip aliqua do. Aliqua laborum ipsum laborum nulla veniam.
                     </p>
                     <div className='hero__buttons'>
-                        <button className='primary__button btns'>Get Started Now</button>
-                        <button className='secondary__button btns'>Discover More</button>
+                        <button className='primary__button btns'>Get Started Now </button>
+                        <button  className='secondary__button btns'>Contac Us</button>
                     </div>
 
                 </div>

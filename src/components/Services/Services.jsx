@@ -18,7 +18,7 @@ const Services = () => {
                 ServicesData.map((service,index)=>{
                     return(
                 <div className='services__item' key={service.index}>
-                    <span className='services__icon'><i class="ri-pencil-ruler-2-line"></i></span>
+                    <img src={service.image} className='services__image' alt='' />
                     <h3 className='services__title'>{service.title}</h3>
                     <p className='description'>{service.description}</p>
                 </div>

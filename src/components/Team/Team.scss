@@ -21,13 +21,13 @@
             
 
             .teams__item{
-                background: var(--card-bg);
+                
                 width: 22%;
                 padding: 0px 0px;
                 border-radius: 0.5rem;
                 cursor: pointer;
                 transition: all .3s ease;
-                box-shadow: rgba(14, 14, 14, 0.48) 1px 1px 1px 0px, rgba(65, 65, 65, 0.8) -3px -1px 10px 0px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
                 @media only screen and (max-width: 768px){
                     width: 31%;
                 }
@@ -49,28 +49,31 @@
                     align-items: center;
                     margin: auto;
                     background: #45485a;
-                    border-radius: 5px;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
                     margin-bottom: 10px;
                   
                 }
 
                 .teams__title{
-                    color: var(--btn-secondary-bg) ;
+                    color: var(--primary-color) ;
                     font-size: 1rem;
                     padding: 0px 15px;
+                    font-weight: 500;
                     
                 }
 
                 .socials{
                     display: flex;
                     column-gap: .5rem;
-                    font-size: 1.1rem;
+                    font-size: 1.2rem;
                     padding: 0px 15px 10px;
+                    color: var(--heading-color);
                 }
 
                 p{
                     font-weight: 300;
-                    color: #fff;
+                    
                     padding: 0px 15px;
                 }
             }

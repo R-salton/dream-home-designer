@@ -10,8 +10,8 @@ const Testmonial = (props) => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 1000,
-        arrows: false,
+        speed: 1500,
+        arrows: true,
         autoplaySpeed: 2000,
         swipperToSlide: true,
         responsive: [
@@ -43,7 +43,7 @@ const Testmonial = (props) => {
   
       
       };
-
+ 
 
   return (
     <section className='testmonial' id="testimonials">
