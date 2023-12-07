@@ -1,3 +1,9 @@
+import { mailtoUrl } from "./components/Contacts/Contacts"
+
+const phoneNumber = '+919784952873';
+const whatsappUrl = `https://wa.me/${phoneNumber}`;
+
+
 export const nav__links =[
     {
       path: '#home',
@@ -6,6 +12,10 @@ export const nav__links =[
     {
       path: '#about',
       display: 'About'
+    },
+    {
+      path: '#team',
+      display: 'Team'
     },
     {
       path: '#services',
@@ -28,16 +38,16 @@ export const nav__links =[
 
   export const counterData = [
     {
-      number: '3k',
+      number: '12k',
       text: "Clients"
     },
     {
-      number: 120,
+      number: 1200,
       text: "Running Projects"
     },
    
     {
-      number: 300,
+      number: 13000,
       text: "Projects Completed"
     },
   ]
@@ -46,7 +56,7 @@ export const nav__links =[
     {
       title:'Architectural Deign',
       image: '/images/architecture.png',
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
+      description:"Transforming ideas into architectural marvels, our designs blend innovation and functionality to create spaces that inspire and endure.",
     
     },
 
@@ -54,17 +64,17 @@ export const nav__links =[
       title:'Interior Design',
       image: '/images/interior.png',
 
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
+      description:"Elevate your living or working environment with our interior design expertise, striking the perfect balance between aesthetics and comfort.",
     },
     {
       title:'Product Design',
       image: '/images/product-.png',
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
+      description:"Crafting visionary products that merge form and function, our design solutions redefine industries and enhance user experiences.",
     },
     {
       title:'Project Monitoring',
       image: '/images/project.png',
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.",
+      description:"Ensuring the seamless realization of your vision, our project monitoring services provide oversight and support from conception to completion.",
     }
   ]
 
@@ -72,69 +82,69 @@ export const nav__links =[
     {
       icon: 'ri-wifi-line',
       title: 'First working process',
-      desc:'Incididunt ad magna ea eu dolor nostrud labore enim occaecat incididunt cillum.'
+      desc:"Delivering excellence from the project's inception, we meticulously plan and execute the initial stages to ensure a seamless and successful home design journey."
     },
 
     {
       icon: 'ri-creative-commons-by-line',
       title: 'Creative Designs',
-      desc:'Incididunt ad magna ea eu dolor nostrud labore enim occaecat incididunt cillum.'
+      desc:'Infusing innovation and artistic flair into every blueprint, our designs reflect a harmonious blend of functionality and aesthetics, creating dream homes that stand out.'
     },
     {
       icon: 'ri-customer-service-2-fill',
       title: '24/7 Hours Support',
-      desc:'Incididunt ad magna ea eu dolor nostrud labore enim occaecat incididunt cillum. '
+      desc:"Committed to our clients around the clock, our support team ensures responsive assistance, addressing queries and concerns promptly to guarantee a worry-free experience at any hour."
     },
     {
       icon: 'ri-team-line',
       title: 'Dedicated Team',
-      desc:'Incididunt ad magna ea eu dolor nostrud labore enim occaecat incididunt cillum.'
+      desc:"Our passionate and skilled professionals work tirelessly, dedicating their expertise to transform visions into reality, fostering a collaborative approach for personalized and exceptional home architecture."
     },
   ]
 
   export const TeamData =[
     {
-      name: 'Anita',
-      profile: '/images/team-02.png',
-      designation: 'Designer'
+      name: 'Himanshu Jain',
+      profile: '/images/boss1.png',
+      designation: 'Civil Engineer'
     },
     {
-      name: 'John Doe',
-      profile: '/images/team-01.png',
-      designation: 'Founder & CEO'
+      name: 'Priya Singh',
+      profile: '/images/PriyaSingh.png',
+      designation: 'Project Manager'
     },
     {
-      name: 'Mike',
-      profile: '/images/team-03.png',
+      name: 'Vikram Kapoor',
+      profile: '/images/mikah.png',
       designation: 'Marketing Specialist'
     },
     {
-      name: 'Shakur',
-      profile: '/images/team-04.png',
-      designation: 'UI/UX designer'
+      name: 'Rajiv Sharma',
+      profile: '/images/Shakur.png',
+      designation: 'Architecture Designer'
     },
     
   ]
 
   export const Clients = [
     {
-      name: "Sir, John",
-      image: "/images/ava-1.jpg",
-      desc: "Excepteur ea sit esse officia ut nisi exercitation sint amet Lorem adipisicing sint irure reprehenderit.",
-      position: "Owner of ATA.inc"
+      name: "Priya R.",
+      image: "https://t3.ftcdn.net/jpg/01/87/83/26/360_F_187832626_Z0K54NuFDzPM10NZw6gWdRYMC763xJQM.jpg",
+      desc: "Dream Home Design exceeded my expectations! Their attention to detail and commitment to delivering a unique, functional design truly set them apart. Living in my dream home is a testament to their expertise.",
+      position: "From Mumbai"
       
     },
     {
-      name: "Jane Smith",
-      image: "/images/ava-2.jpg",
-      position: "CEO at XYZ Co.",   
-      desc : "Officia id adipisicing qui sit quis eiusmod.Et do duis elit ea consectetur dolore ex consequat Lorem esse amet consectetur esse."
+      name: "Kunal S.",
+      image: "/images/ava-1.jpg",
+      position: "From Delhi",   
+      desc : "Choosing Dream Home Design was the best decision. The creative prowess of their team turned my vision into a stunning reality. The dedication and professionalism throughout the process were exceptional."
     },
     {
-      name: "Tom Brown",
-      image: "/images/ava-3.jpg",
-      position: "CTO at ABC Inc.",
-      desc: "Anim cupidatat qui deserunt ex ad ipsum dolore incididunt est voluptate.Cupidatat Lorem qui occaecat ipsum." 
+      name: "Aljun B.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-azx6f0rYjaPTpu7Khh68nWuIIlehaXKzSksVCWL3hge7rvl9-jfTozb1Ul-omLFZfU&usqp=CAU",
+      position: "From Bangalore",
+      desc: "I can't thank Dream Home Design enough for their 24/7 support. Their team was always available, addressing my concerns promptly. It made the entire experience smooth, and the end result is a home that exceeds my expectations." 
     }
     
     
@@ -160,7 +170,7 @@ export const nav__links =[
 
     },
     {
-      path:"#",
+      path:"https://www.facebook.com/profile.php?id=100093607791305&mibextid=vk8aRt",
       icon:'ri-facebook-box-line',
       name:"Facebook",
     }],
@@ -168,19 +178,19 @@ export const nav__links =[
 
     [
       {
-        path:"#",
+        path:"",
         icon:'ri-phone-fill',
         name: '+91-0704-7364'
   
       },
       {
-        path:"#",
+        path:whatsappUrl,
         icon:'ri-whatsapp-line',
         name: "Wattsap"
   
       },
       {
-        path:"#",
+        path:mailtoUrl,
         icon:'ri-mail-send-line',
         name:"Email",
       } ,
@@ -196,7 +206,7 @@ export const nav__links =[
 
     [
       {
-        path:"#",
+        path:"#projects",
         icon:'ri-community-line',
         name: 'Projects'
   
@@ -208,7 +218,7 @@ export const nav__links =[
   
       },
       {
-        path:"#",
+        path:"#contacts",
         icon:'ri-contacts-line',
         name:"Contacts",
       } ,

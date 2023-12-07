@@ -12,7 +12,7 @@ const Testmonial = (props) => {
         infinite: true,
         speed: 1500,
         arrows: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2000, 
         swipperToSlide: true,
         responsive: [
           {
@@ -50,14 +50,14 @@ const Testmonial = (props) => {
         <div className='container'>
             <div className='slider__content-top'>
                 <h6 className='subtitle'>Testmonials From our clients</h6>
-                <h2>Trusted by more than <span className='highlight'>2,000 customers</span></h2>
+                <h2>Trusted by more than <span className='highlight'>12,000 customers</span></h2>
             </div>
 
             <div className='slider__wrapper'>
             <Slide autoplay={true} slidesToScroll={1} slidesToShow={1} {...settings}>
 
             
-            {
+            { 
                 Clients.map((client,index) =>{ 
                     
 

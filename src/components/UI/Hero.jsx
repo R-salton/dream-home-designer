@@ -8,7 +8,7 @@ function Hero() {
         <div className='container'>
             <div className='hero__wrapper'> 
                 <div className='hero__content'>
-                    <div className='Text'>
+                    <div className='Text'> 
                     <h2>We're Creating Perfect</h2>
                     <h2>Modern Home Designs</h2>
                     <h2 className='highlight'>Make Your Dream a reality with us</h2>
@@ -17,7 +17,7 @@ function Hero() {
                     </p>
                     <div className='hero__buttons'>
                         <button className='primary__button btns'>Get Started Now </button>
-                        <button  className='secondary__button btns'>Contac Us</button>
+                        <a href='#contacts' style={{cursor: 'pointer'}}><button  className='secondary__button btns'>Contac Us</button></a>
                     </div>
 
                 </div>

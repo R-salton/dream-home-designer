@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.scss'
+import { EmailIcon, WhatsAppIcon } from '../Contacts/Contacts';
 
 
 const Contact = () => {
@@ -50,18 +51,7 @@ const Contact = () => {
 
   // social Parameters
 
-  const phoneNumber = '+250784854838';
-  const whatsappUrl = `https://wa.me/${phoneNumber}`;
-
-  const emailAddress = 'nezasalton@gmail.com';
-  const subject = 'Subject';
-  const body = 'Body of the email';
   
-  // Encode special characters in subject and body
-  const encodedSubject = encodeURIComponent(subject);
-  const encodedBody = encodeURIComponent(body);
-
-  const mailtoUrl = `mailto:${emailAddress}?subject=${encodedSubject}&body=${encodedBody}`;
 
 
  
@@ -77,12 +67,8 @@ const Contact = () => {
                 <div className='our_socials'>
                 <p>Send Us a message</p>
               
-                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                  <i className="ri-whatsapp-line"></i>
-                </a>
-                <a href={mailtoUrl}>
-                  <i className="ri-mail-line"></i>
-                </a>
+                <EmailIcon />
+                <WhatsAppIcon />
                 <div>
                
                 </div>

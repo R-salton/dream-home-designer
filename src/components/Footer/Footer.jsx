@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className='footer__logo'>
                     <h2>Dream Home Designer</h2>
                     <p className='description'>Make it reality with us</p>
-                    <p className='small__text description'>Sit pariatur veniam dolore adipisicing pariatur proident ad.</p>
+                    <p className='small__text description'>Turning Dreams into Dwellings, Visions into Vibrance - Dream Home Design, Where Every Detail Matters</p>
                 </div>
                 <div className='footer__quick-links'>
                     <h3 className='quick__links-title'>Support</h3>
@@ -42,7 +42,7 @@ const Footer = () => {
                                     </li>
                                 )
                             })
-                        }
+                        } 
                     </ul>
                 </div>
 
@@ -55,7 +55,7 @@ const Footer = () => {
 
                                 return(
                                     <li className='quick__link-item' key={index}>
-                                        <a href={social.path}><i class={social.icon}></i> {social.name}</a>
+                                        <a href={social.path} target="_blank" rel="noopener noreferrer" ><i class={social.icon}></i> {social.name}</a>
                                     </li>
                                 )
                             })

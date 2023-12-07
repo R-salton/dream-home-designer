@@ -58,7 +58,7 @@ function Header({theme,toggleTheme}) {
             nav__links.map((nav,index) =>{
 
               return(
-                  <li className='menu__item' key={index}>
+                  <li className='menu__item' key={index}> 
                     <a href={`${nav.path}`} onClick={handleClick} className='menu__link'>{nav.display}</a>
                   </li>
               )

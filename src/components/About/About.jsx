@@ -12,8 +12,7 @@ function About() {
                 <h2>Get Your Dream Home with</h2>
                 <h2 className='highlight'>Our best services</h2>
                 <p className='description about__content-desc'>
-                  Deserunt et eu ea tempor elit duis labore aute sunt quis eu do ea qui.Commodo in ullamco dolore nulla ut.
-                  Sint fugiat elit enim occaecat fugiat mollit culpa aliqua laborum ut eiusmod id ipsum.
+                With a seasoned team of architects and designers, Dream Home Design brings unmatched proficiency and creativity to the table, ensuring that your dream home becomes a reality with precision and flair.
                 </p>
                 <div className='choose__wrapper'>
 
@@ -24,7 +23,7 @@ function About() {
                   <div className='choose__us-item'>
                       <span className='choose__us-icon'><i class={item.icon}></i></span>
                       
-                      <h4 className='choose__us-title'>{item.title}</h4>
+                      <h4 className='choose__us-title'>{item.title}</h4> 
                       <p className='description'>{item.desc}</p>
                       
                 </div>
